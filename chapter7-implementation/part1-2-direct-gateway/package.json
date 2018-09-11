@@ -31,6 +31,7 @@
     "express": "^4.12.4",
     "msgpack5": "^3.3.0",
     "node-json2html": "^1.0.0",
+    "object-observer": "^1.0.1",
     "ws": "^0.7.2"
   },
   "optionalDependencies": {
