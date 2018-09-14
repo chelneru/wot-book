@@ -2,8 +2,9 @@
   "name": "wot-pi",
   "version": "1.0.0",
   "description": "A Web of Things server for the Pi",
-  "main": "wot-pi.js",
+  "main": "wot-server.js",
   "scripts": {
+    "start": "node wot-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vlad Trifa",
@@ -24,18 +25,18 @@
     "messaging"
   ],
   "dependencies": {
-    "bl": "^1.0.0",
+    "bl": "^2.0.1",
     "body-parser": "^1.13.1",
-    "coap": "^0.20.0",
+    "coap": "^0.22.0",
     "cors": "^2.7.1",
     "express": "^4.12.4",
-    "msgpack5": "^3.3.0",
+    "msgpack5": "^4.2.0",
     "node-json2html": "^1.0.0",
     "object-observer": "^1.0.1",
-    "ws": "^0.7.2"
+    "ws": "^6.0.0"
   },
   "optionalDependencies": {
-    "onoff": "^1.0.4",
-    "node-dht-sensor": "^0.0.8"
+    "node-dht-sensor": "^0.0.34",
+    "onoff": "^3.2.1"
   }
 }
